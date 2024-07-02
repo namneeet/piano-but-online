@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    height:100vh;
+    width:100vw;
+    
+}
+
+li{
+    position: relative;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+}
+
+.white{
+    width:100%;
+    height:15%;
+    background-color: white;
+    border: 1px solid gray;
+    z-index: 0;
+    position:relative;
+}
+.black{
+    background-color: black;
+    height:10%;
+    width:50%;
+    z-index: 1;
+    position:relative;
+    margin: 0 -0.46% 0 -0.46%;
+}
+
+
+
